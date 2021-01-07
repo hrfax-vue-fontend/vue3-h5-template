@@ -1,0 +1,121 @@
+{
+  "idCardFrontUrl": {
+    "code": "idCardFrontUrl",
+    "label": "身份证正面",
+    "type": 4,
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "idCardBackUrl": {
+    "code": "idCardBackUrl",
+    "label": "身份证反面",
+    "type": 4,
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "name": {
+    "code": "name",
+    "label": "姓名",
+    "type": 0,
+    "reg": "userName2",
+    "regTip": "至少两位，仅支持汉字和英文'·'，请重新输入",
+    "errorMsg": [],
+    "validated": true,
+    "required": true,
+    "maxlength": 29
+  },
+  "enname": {
+    "code": "enname",
+    "label": "姓名全拼",
+    "type": 2,
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "sex": {
+    "code": "sex",
+    "label": "性别",
+    "type": 1,
+    "id": "dataKey",
+    "name": "dataValue",
+    "dictionary": [
+      {
+        "key": "男",
+        "value": "男"
+      },
+      {
+        "key": "女",
+        "value": "女"
+      }
+    ],
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "people": {
+    "code": "people",
+    "label": "民族",
+    "type": 0,
+    "id": "dataKey",
+    "name": "dataValue",
+    "errorMsg": [],
+    "validated": true,
+    "required": true,
+    "maxlength": 29
+  },
+  "id_number": {
+    "code": "id_number",
+    "label": "身份证号码",
+    "type": 0,
+    "reg": "idCard",
+    "regTip": "请填写15或18位身份证号",
+    "required": true,
+    "maxlength": 18,
+    "errorMsg": [],
+    "validated": true
+  },
+  "issue_date": {
+    "code": "issue_date",
+    "type": 3,
+    "label": "身份证有效起始日期",
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "term_to": {
+    "code": "term_to",
+    "label": "身份证有效截止日期",
+    "type": 3,
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "issue_authority": {
+    "code": "issue_authority",
+    "label": "签发机关",
+    "type": 0,
+    "errorMsg": [],
+    "validated": true,
+    "required": true,
+    "maxlength": 200
+  },
+  "birthday": {
+    "code": "birthday",
+    "label": "出生日期",
+    "type": 3,
+    "errorMsg": [],
+    "validated": true,
+    "required": true
+  },
+  "address": {
+    "code": "address",
+    "type": 0,
+    "label": "证件地址",
+    "errorMsg": [],
+    "validated": true,
+    "required": true,
+    "maxlength": 200
+  }
+}
